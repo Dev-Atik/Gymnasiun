@@ -1,0 +1,210 @@
+@media(max-width: 600px){
+    #navbar .nav-content .logo a img{
+       transform: scale(0.6);
+       margin-left: -45px;
+    }
+    #banner .overlay .banner-text::before {
+    display: none;
+    }
+    #banner .overlay .banner-text::after {
+       display: none;
+    }
+    #banner .overlay .banner-text{
+      margin-top: 80px;
+    }
+    #banner .overlay .banner-text h2::before {
+      display: none;
+    }
+    #banner .overlay .banner-text h2::after {
+      display: none;
+    }
+    #banner .overlay .banner-text h2 {
+      font-size: 22px;
+    }
+    #banner .overlay .banner-text h1 {
+      font-size: 40px;
+    }
+    #banner .overlay .banner-text p {
+      padding: 0;
+    }
+    #banner .overlay .banner-text .banner-btn::before {
+      display: none;
+    }
+    #banner .overlay .banner-text .banner-btn::after {
+      display: none;
+    }
+    #banner .overlay .banner-text .banner-btn a {
+      font-size: 13px;
+    }
+    #banner .banner-slider .slider-items img{
+      height: 450px;
+      object-fit: cover;
+    }
+    /* ---------------- banner area end ------------------- */
+    #about {
+      margin: 40px 0;
+    }
+    #about .about-text .text-header {
+      margin-top: 30px;
+    }
+    /* -------------- about area end ------------------ */
+    #team .team-slider {
+      margin-top: 30px;
+    }
+    #team .team-slider .team-item {
+      padding-bottom: 20px;
+    }
+    /* -------------- team area end ------------------ */
+    #membership {
+      margin-bottom: 0px;
+    }
+    #membership .itmes .itmes-inner{
+      margin-bottom: 30px;
+    }
+    /* -------------- membership area end ------------------ */
+    #counter .counter-wrapper {
+      display: unset;
+    }
+    #counter .counter-wrapper .counter-item {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    /* -------------- counter area end ------------------ */
+    #classes {
+      margin-bottom: 30px;
+    }
+    #classes .mixit-button button {
+      padding: 10px 20px;
+      margin-bottom: 15px;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+    #classes .mixit-items .mixit-items-inner {
+      width: 46%;
+    }
+    /* -------------- classes area end ------------------ */
+    #brand .slick-slide img {
+      display: unset;
+    }
+    /* -------------- brand area end ------------------ */
+    #footer .foot-top {
+      padding: 10px 0;
+    }
+    #footer .foot-top img{
+      transform: scale(0.8);
+    }
+    #footer .foot-btm h5 {
+      line-height: 24px;
+    }
+    /* -------------- about area end ------------------ */
+}
+
+@media(min-width: 600px) and (max-width: 991.99px){
+  #navbar .nav-content .logo a img{
+    transform: scale(0.8);
+    margin-left: -20px;
+ }
+    #banner .overlay .banner-text{
+      margin-top: 120px;
+    }
+    #banner .overlay .banner-text h1 {
+      font-size: 50px;
+    }
+    #banner .banner-slider .slider-items img{
+      height: 550px;
+      object-fit: cover;
+    }
+    #banner .overlay .banner-text p {
+      padding: 0 30px;
+    }
+    #banner .overlay .banner-text::after {
+     height: 80%;
+    }
+    #banner .overlay .banner-text::before {
+     height: 82%;
+    }
+    /* ---------------- banner area end ------------------- */
+    #about {
+      margin: 50px 0;
+    }
+    #about .about-text .text-header {
+      margin-top: 20px;
+    }
+    /* ---------------- about area end ------------------- */
+    #gallery .gallery-wrapper .gal-items .gal-overlay {
+      left: 10px;
+      top: 6px;
+    }
+    /* ---------------- gallery area end ------------------- */
+    #team .team-slider .team-item {
+      padding-bottom: 30px;
+    }
+    /* ---------------- team area end ------------------- */
+    #membership .itmes .itmes-inner{
+      margin-bottom: 30px;
+    }
+    /* ---------------- membership area end ------------------- */
+    #counter .counter-wrapper {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    #counter .counter-wrapper .counter-item {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+    /* ---------------- counter area end ------------------- */
+    #classes .mixit-button button {
+      padding: 10px 40px;
+      margin-bottom: 15px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    #classes .mixit-items .mixit-items-inner {
+      width: 45%;
+    }
+    /* ---------------- classes area end ------------------- */
+    #brand .slick-slide img {
+      display: unset;
+    }
+    /* ---------------- counter area end ------------------- */
+
+}
+
+@media(min-width: 992px) and (max-width: 1199.99px){
+    #banner .overlay .banner-text{
+      margin-top: 120px;
+    }
+    #banner .banner-slider .slider-items img{
+      height: 550px;
+      object-fit: cover;
+    }
+    #banner .overlay .banner-text p {
+      padding: 0 30px;
+    }
+    #banner .overlay .banner-text::after {
+     height: 81%;
+    }
+    #banner .overlay .banner-text::before {
+     height: 81%;
+    }
+    /* banner area end */
+    #about .about-text .text-header {
+      margin-top: 30px;
+    }
+    /* about area end */
+    #membership .itmes .itmes-inner{
+      margin-bottom: 30px;
+    }
+    /* team area end */
+    #classes .mixit-button button {
+      padding: 10px 45px;
+      margin: 0 5px 15px 5px;
+    }
+    /* classes area end */
+    #footer .foot-top {
+      padding: 10px 0;
+    }
+    /* footer area end */
+
+}
+
